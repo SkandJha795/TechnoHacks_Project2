@@ -1,0 +1,71 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('img/paul-cuoco-SLU0U_a6fbQ-unsplash.jpg');
+    background-size: cover;
+    color: white;
+    
+}
+.left{
+   
+    font-family: "Sedan SC", serif;
+}
+.left img{
+    filter: invert(100%);
+}
+.mid{
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+.navbar li{
+    display: inline;
+    font-size: 25px;
+}
+.navbar li a{
+    color:white;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+.navbar li a:hover,.navbar li a.active{
+    color: brown;
+    text-decoration:wavy;
+}
+.btn{
+font-family: "Poetsen One", sans-serif;
+margin: 0px 9px;
+background-color: black;
+color: white;
+padding: 4px 14px;
+border: 2px solid grey;
+border-radius: 5px;
+cursor: pointer;
+}
+.container{
+margin: 105px 209px;
+font-size: 35px;
+padding: 75px;
+width: 33%;
+border-radius: 26px;
+}
+.bpn{
+font-family: "Poetsen One", sans-serif;
+font-size: 20px;
+margin: 0px 9px;
+background-color: black;
+color: white;
+padding: 4px 14px;
+border: 2px solid grey;
+border-radius: 5px;
+cursor: pointer;
+float: right;
+position: fixed;
+bottom: 0px;
+right: 0px;
+}
